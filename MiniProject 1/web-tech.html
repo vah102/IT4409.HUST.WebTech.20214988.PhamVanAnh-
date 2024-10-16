@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./reponsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="blur-overlay"></div>
+
+    <div class="header">
+        <ul>
+            <li id="logo">
+                <a href="./index.html">
+                    <img src="https://upload.wikimedia.org/wikipedia/vi/thumb/e/ef/Logo_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_B%C3%A1ch_Khoa_H%C3%A0_N%E1%BB%99i.svg/1365px-Logo_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_B%C3%A1ch_Khoa_H%C3%A0_N%E1%BB%99i.svg.png" alt="logo">
+                </a>
+            </li>
+            <li><a href="./course-infor.html">Thông tin môn học</a></li>
+            <li class="nav-active"><a href="./web-tech.html">Các công nghệ Web</a></li>
+            <li><a href="./student-infor.html">Thông tin sinh viên</a></li>
+        </ul>
+
+        <button id="menu-button"><i class="fas fa-bars"></i></button>
+    </div>
+
+    <div class="sidebar">
+        <button id="remove-sidebar-btn"><i class="fa-solid fa-xmark"></i></button>
+        <h4 class="sidebar-header">Menu</h4>
+        <a href="">Giới thiệu</a>
+        <a href="">Công nghệ Front-end</a>
+        <a href="">Công nghệ Backend</a>
+        <a href="">Cơ sở dữ liệu</a>
+        <a href="">API</a>
+    </div>
+
+    <div class="main">
+        <div class="content">
+            <div class="posts">
+                    <div id="post#1" class="post">
+                        <div class="post-content">
+                            <h1>Giới thiệu</h1>
+                            <p>Trong kỷ nguyên số ngày nay, việc xây dựng ứng dụng web không chỉ đòi hỏi khả năng lập trình mà còn yêu cầu những giải pháp công nghệ tối ưu nhằm đảm bảo tính năng động, bảo mật, hiệu suất cao và khả năng mở rộng. Với rất nhiều lựa chọn công nghệ hiện có, việc chọn đúng công cụ và nền tảng là yếu tố quyết định thành công của dự án</p>
+                            <p>Trang web này được thiết kế nhằm cung cấp các thông tin chi tiết về các giải pháp công nghệ tiên tiến, giúp các doanh nghiệp và nhà phát triển hiểu rõ hơn về việc áp dụng chúng vào quá trình xây dựng ứng dụng web.</p>
+                        </div>
+
+                        <div class="post-advertise">
+                            <a href="https://soict.hust.edu.vn/">
+                                <img src="./soict.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div id="post#2" class="post">
+                        <div class="post-content">
+                            <h1>Công nghệ Front-end</h1>
+                            <p>Front-end tập trung vào phần giao diện người dùng, nơi người dùng tương tác trực tiếp.</p>
+                            
+                            <ul>
+                                <li>HTML (HyperText Markup Language): Ngôn ngữ đánh dấu cấu trúc cơ bản của trang web.</li>
+                                <li>CSS (Cascading Style Sheets): Ngôn ngữ tạo kiểu để thiết kế giao diện, bố cục và hiệu ứng trên trang web.</li>
+                                <li>JavaScript: Ngôn ngữ lập trình cho phép tạo ra các tính năng tương tác trên trang web (form validation, animation, dynamic content).</li>
+                            </ul>
+
+                            <p>Các framework và thư viện JavaScript phổ biến:</p>
+                            <ul>
+                                <li>React.js: Thư viện JavaScript do Facebook phát triển, dùng để xây dựng giao diện người dùng.</li>
+                                <li>Vue.js: Framework JavaScript nhẹ, dễ sử dụng để xây dựng ứng dụng web động.</li>
+                                <li>Angular: Framework JavaScript do Google phát triển, thường được sử dụng cho các ứng dụng web quy mô lớn.</li>
+                            </ul>
+                        </div>
+
+                        <div class="post-advertise">
+                            <a href="https://www.w3schools.com/html/default.asp">
+                                <img src="https://vtiacademy.edu.vn/upload/images/cong-viec-cua-front-end-developer-gom-nhung-gi-can-nhung-ky-nang-gi.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div id="post#3" class="post">
+                        <div class="post-content">
+                            <h1>Công nghệ Back-end</h1>
+                            <p>Back-end chịu trách nhiệm xử lý logic, cơ sở dữ liệu, và tương tác giữa front-end và server.</p>
+                            <ul>
+                                <li>Laravel là framework PHP phổ biến, cung cấp môi trường phát triển mạnh mẽ và dễ mở rộng. Với hệ thống routing linh hoạt, quản lý phiên (session), bảo mật API, và ORM (Eloquent), Laravel trở thành lựa chọn lý tưởng cho nhiều dự án web.</li>
+                                <li>Node.js: Nền tảng chạy JavaScript trên server, thường dùng để xây dựng các ứng dụng web nhanh và có khả năng mở rộng cao.</li>
+                                <li>PHP: Ngôn ngữ lập trình server-side phổ biến, được sử dụng nhiều trong các hệ thống quản lý nội dung (CMS) như WordPress.</li>
+                                <li>Python: Một ngôn ngữ lập trình mạnh mẽ, được sử dụng trong các framework như Django và Flask để phát triển web.</li>
+                                <li>Ruby on Rails: Framework phát triển ứng dụng web dựa trên ngôn ngữ Ruby, hỗ trợ phát triển nhanh với nhiều tính năng mạnh mẽ.</li>
+                                <li>Java (Spring): Framework phát triển web mạnh mẽ dùng Java, thường được sử dụng trong các dự án quy mô lớn, doanh nghiệp.</li>
+                            </ul>
+                        </div>
+
+                        <div class="post-advertise">
+                            <a href="https://xaydungso.vn/bai-viet-khac/video-huong-dan-cong-nghe-back-end-cho-nguoi-moi-vi-cb.html">
+                                <img src="https://tuyendung.kfcvietnam.com.vn/Data/Sites/1/News/268/lap-trinh-back-end.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div id="post#4" class="post">
+                        <div class="post-content">
+                            <h1>Cơ Sở Dữ Liệu</h1>
+                            <p>Dùng để lưu trữ và quản lý dữ liệu cho ứng dụng web</p>
+                            <ul>
+                                <li>MySQL: Hệ quản trị cơ sở dữ liệu quan hệ mã nguồn mở phổ biến.</li>
+                                <li>PostgreSQL: Hệ quản trị cơ sở dữ liệu quan hệ tiên tiến, hỗ trợ nhiều tính năng phức tạp.</li>
+                                <li>MongoDB: Cơ sở dữ liệu NoSQL, hỗ trợ lưu trữ dữ liệu dưới dạng JSON, thích hợp với các ứng dụng có cấu trúc dữ liệu không cố định.</li>
+                                <li>SQLite: Cơ sở dữ liệu nhúng nhẹ, thường được dùng trong các ứng dụng nhỏ hoặc mobile.</li>
+                            </ul>
+                        </div>
+
+                        <div class="post-advertise">
+                            <a href="https://www.w3schools.com/mysql/default.asp">
+                                <img src="https://viettuans.vn/uploads/2023/06/co-so-du-lieu-la-gi-phan-loai-co-so-du-lieu-2.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div id="post#5" class="post">
+                        <div class="post-content">
+                            <h1>API (Application Programming Interface)</h1>
+                            <p>API cho phép giao tiếp giữa các hệ thống khác nhau, thường được sử dụng để kết nối front-end với back-end hoặc với các dịch vụ bên ngoài.</p>
+                            <ul>
+                                <li>RESTful API: Giao thức API phổ biến, dựa trên các phương thức HTTP (GET, POST, PUT, DELETE).</li>
+                                <li>GraphQL: Một ngôn ngữ truy vấn API mới, do Facebook phát triển, cho phép client yêu cầu chính xác dữ liệu cần thiết.</li>
+                                <li>SOAP (Simple Object Access Protocol): Giao thức API truyền thống, thường được dùng trong các hệ thống doanh nghiệp.</li>
+                            </ul>
+                        </div>
+
+                        <div class="post-advertise">
+                            <a href="https://www.leadmine.net/glossary/application-programming-interface/">
+                                <img src="https://th.bing.com/th/id/R.ecf6696c19db285c8a1ce15d50ac7de9?rik=hpEZ5RmiHiVuWw&pid=ImgRaw&r=0" alt="">
+                            </a>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="panigation">
+                <a href="">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+                <a href="">4</a>
+                <a href="">5</a>
+                <a href=""><i class="fa-solid fa-angles-right" style="font-size: 10px;"></i></a>
+            </div>
+        </div>
+
+        <footer>
+            <h4>Liên hệ</h4>
+        </footer>
+        <div class="contact">Phạm Vân Anh - 20214988</div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+@media (max-width: 1023px) {
+    #menu-button {
+        display: block;
+    }
+    .sidebar {
+        left: -250px;
+    }
+    .main {
+       margin-left: 0;
+    }
+    /* #remove-sidebar-btn {
+        display: block;
+    }    */
+}
+
+@media (max-width: 739px) {
+    .header > ul > li:not(:first-child) {
+        display: none;
+    }
+    .post {
+        flex-direction: column;
+    }
+    .post-content {
+        width: 100%;
+    }
+    .post-advertise {
+        width: 100%;
+    }
+
+    .student-infor {
+        flex-direction: column;
+    }
+
+    .basic-infor {
+        min-width: 100%;
+    }
+
+    .detail-infor {
+        min-width: 100%;
+    }
+}
