@@ -1,0 +1,317 @@
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --h: 400px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  margin: 0px auto;
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.header {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #e17c00;
+}
+
+.student-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.student-info .left {
+  width: 48%;
+}
+
+.student-info .right {
+  width: 80%;
+}
+
+.student-info img {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.details {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.details span {
+  font-weight: bold;
+}
+
+.academic-info,
+.skills-info,
+.hobbies-info,
+.projects-info {
+  margin-top: 20px;
+}
+
+.section-header {
+  background-color: #ffcc33;
+  font-weight: bold;
+  padding: 10px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.table-info {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.table-info th,
+.table-info td {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: left;
+}
+
+.table-info th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+
+#myFooter {
+  position: relative;
+  /* Can also try fixed if you want the footer to stay visible */
+  bottom: 0;
+  width: 100%;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+}
+
+.w3-main {
+  min-height: calc(100vh - 200px);
+  /* Adjust depending on the size of your footer */
+  /* padding-bottom: 100px; */
+  /* Space for the footer */
+}
+
+
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  color: #fff !important;
+  background-color: #FFB300 !important;
+}
+
+.admin-page-heading {
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.admin-list {
+  list-style: none;
+}
+
+.admin-item {
+  display: flex;
+}
+
+.admin-item-name {
+  width: 300px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.admin-item-view-icon {
+  width: 120px;
+}
+
+.admin-item-view-icon i:hover {
+ cursor: pointer;
+}
+
+.no-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.admin-item-wrapper {
+  display: flex;
+  border-bottom: 2px dotted #333;
+  padding: 3px 0;
+}
+
+.admin-list .admin-item:last-child .admin-item-wrapper {
+  border-bottom: 2px solid #333;
+}
+
+.preview {
+  margin-top: 80px;
+}
+
+.preview-heading {
+  width: 100%;
+  background-color: #f1bb19;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff ;
+  padding: 3px 5px;
+}
+
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  width: 100%;
+  float: left;
+  padding: 5px;
+  border: 0.1px solid  ;
+}
+
+.parent-row {
+  width: 100%;
+  display: flex;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.h-1 {min-height: calc(8.33 / 100 * var(--h));}
+.h-2 {min-height: calc(16.66 / 100 * var(--h));}
+.h-3 {min-height: calc(25 / 100 * var(--h));}
+.h-4 {min-height: calc(33.33 / 100 * var(--h));}
+.h-5 {min-height: calc(41.66 / 100 * var(--h));}
+.h-6 {min-height: calc(50 / 100 * var(--h));}
+.h-7 {min-height: calc(58.33 / 100 * var(--h));}
+.h-8 {min-height: calc(66.66 / 100 * var(--h));}
+.h-9 {min-height: calc(75 / 100 * var(--h));}
+.h-10 {min-height: calc(83.33 / 100 * var(--h));}
+.h-11 {min-height: calc(91.66 / 100 * var(--h));}
+.h-12 {min-height: calc(100 / 100 * var(--h));}
+.h-13 {min-height: calc(108.33 / 100 * var(--h));}
+.h-14 {min-height: calc(116.66 / 100 * var(--h));}
+.h-15 {min-height: calc(125 / 100 * var(--h));}
+.h-16 {min-height: calc(133.33 / 100 * var(--h));}
+.h-17 {min-height: calc(141.66 / 100 * var(--h));}
+.h-18 {min-height: calc(150 / 100 * var(--h));}
+.h-19 {min-height: calc(158.33 / 100 * var(--h));}
+.h-20 {min-height: calc(166.66 / 100 * var(--h));}
+.h-21 {min-height: calc(175 / 100 * var(--h));}
+.h-22 {min-height: calc(183.33 / 100 * var(--h));}
+.h-23 {min-height: calc(191.66 / 100 * var(--h));}
+.h-24 {min-height: calc(200 / 100 * var(--h));}
+.h-25 {min-height: calc(208.33 / 100 * var(--h));}
+.h-26 {min-height: calc(216.66 / 100 * var(--h));}
+.h-27 {min-height: calc(225 / 100 * var(--h));}
+.h-28 {min-height: calc(233.33 / 100 * var(--h));}
+.h-29 {min-height: calc(241.66 / 100 * var(--h));}
+.h-30 {min-height: calc(250 / 100 * var(--h));}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.help-icon-wrapper {
+  position: absolute;
+  right: -60px;
+  background-color: black;
+  padding: 10px 17px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.preview p, h1, h2, h3, h4, ol {
+  margin: 0;
+  word-wrap: break-word;
+  padding: 0;
+}
+
+#admin-content .row {
+  border: none;
+}
+
+#admin-content .layout {
+  border: 2px solid black;
+}
+
+.preview li[data-list=bullet] > .ql-ui:before {
+  content: '\2022';
+  margin-right: 8px;
+  margin-left: 20px;
+}
+
+.preview li[data-list=bullet]::marker {
+  content: none;
+}
+
+.student-page-heading {
+  position: relative;
+}
+
+.student-page-reset-icon {
+  position: absolute;
+  right: -45px;
+  cursor: pointer;
+}
